@@ -1,3 +1,5 @@
+(blogs)=
+
 # Blogs
 
 ```{admonition} Você sabe o que é um blog?
