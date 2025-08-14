@@ -58,7 +58,7 @@ myst_url_schemes = {
     "http": None,
     "https": None,
     "wiki": "https://pt.wikipedia.org/wiki/{{path}}#{{fragment}}",
-    "dic": "https://dicio.com.br/{{path}}",
+    "dic": "https://dicio.com.br/{{path}}/",
 }
 
 html_title = html_short_title = project
