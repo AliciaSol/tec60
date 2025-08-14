@@ -18,4 +18,6 @@ Aqui temos um {{gato}} e um {{rato}}.
 
 Você sabe o que é a [Internet](dic:internet)?
 
+Pressione {kbd}`Ctrl`+{kbd}`Alt`+{kbd}`Del` para reiniciar o computador.
+
 ---
