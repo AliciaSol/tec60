@@ -32,13 +32,41 @@ html_favicon = 'imagens/favicon.ico'
 html_theme = 'sphinx_book_theme'
 html_static_path = ['_static']
 
-html_title = html_short_title = project
-html_theme_options = {
-    'navigation_with_keys': True,
-    'source_repository': 'https://gitea.mange.ifrn.edu.br/tec60/turma-2024/',
-    'source_branch': 'estudantes',
-    'source_directory': 'docs',
-    'source_edit_link': 'https://gitea.mange.ifrn.edu.br/tec60/turma-2024/_edit/estudantes/docs/{filename}',
-    'source_view_link': 'https://gitea.mange.ifrn.edu.br/tec60/turma-2024/src/estudantes/docs/{filename}',
+myst_substitutions = {
+    'gato': '🐈'
 }
+
+myst_enable_extensions = {
+#    "amsmath",
+    "attrs_inline",
+#    "colon_fence",
+    "deflist",
+    "dollarmath",
+    "fieldlist",
+    "html_admonition",
+    "html_image",
+#    "linkify",
+    "replacements",
+    "smartquotes",
+    "strikethrough",
+    "substitution",
+    "tasklist",    
+}
+
+myst_url_schemes = {
+    "http": None,
+    "https": None,
+    "wiki": "https://pt.wikipedia.org/wiki/{{path}}#{{fragment}}",
+    "dic": "https://dicio.com.br/{{path}}",
+}
+
+html_title = html_short_title = project
+# html_theme_options = {
+#     'navigation_with_keys': True,
+#     'source_repository': 'https://gitea.mange.ifrn.edu.br/tec60/turma-2024/',
+#     'source_branch': 'estudantes',
+#     'source_directory': 'docs',
+#     'source_edit_link': 'https://gitea.mange.ifrn.edu.br/tec60/turma-2024/_edit/estudantes/docs/{filename}',
+#     'source_view_link': 'https://gitea.mange.ifrn.edu.br/tec60/turma-2024/src/estudantes/docs/{filename}',
+# }
 
