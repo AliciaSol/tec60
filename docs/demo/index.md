@@ -20,4 +20,8 @@ Você sabe o que é a [Internet](dic:internet)?
 
 Pressione {kbd}`Ctrl`+{kbd}`Alt`+{kbd}`Del` para reiniciar o computador.
 
+Nos navegadores web, se você pressionar as teclas:
+- {kbd}`Ctl`+{kbd}`L`
+
+o cursor irá para a barra de endereços do navegador web.
 ---
