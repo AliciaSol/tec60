@@ -12,5 +12,6 @@ ultima-saudade.md
 ---
 garrafa
 
+Você já leu a {rfc}`1180`?
 
 ---
